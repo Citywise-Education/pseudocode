@@ -1,0 +1,23 @@
+Making a cup of coffee for someone
+
+inputs:
+
+coffee grounds
+milk
+sugar
+whipped cream
+
+
+outputs:
+
+coffee!
+
+steps:
+
+pour coffee grounds into hot water
+add some milk
+add some sugar
+stir it
+put some whipped cream on the top
+
+done!
