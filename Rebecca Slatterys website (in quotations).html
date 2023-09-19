@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reebecas "website"</title>
+</head>
+<body>
+    <p id="testText">this text changes color.</p>
+    <button id="testButton">Button</button>
+    <script>
+        const arr=['red','blue','green']
+        const btn = document.getElementById("testButton")
+        const text = document.getElementById("testText")
+        btn.addEventListener("click", function () {
+            const randomIndex = Math.floor(Math.random() * arr.length)
+            text.style.color = arr[randomIndex];
+            btn.style.display = "none";
+        })
+    </script>
+</body>
+</html>
